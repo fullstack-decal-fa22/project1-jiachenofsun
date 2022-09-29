@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-color: rgb(211, 240, 249);
+}
+
+.content {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 80%;
+    margin: auto;
+    padding: 2em;
+
+}
+
+.welcome {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+#spotify {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-sections {
+    display: flex;
+}

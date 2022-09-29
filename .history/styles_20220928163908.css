@@ -6,18 +6,6 @@ html {
     background-color: rgb(211, 240, 249);
 }
 
-h2 {
-    font-size: 2.5em;
-}
-
-h3 {
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 1.5em;
-}
-
 .content {
     background-color: white;
     border-radius: 20px;
@@ -58,11 +46,6 @@ a {
     max-height: fit-content;
 }
 
-.intro {
-    text-align: center;
-    margin-bottom: 2em;
-}
-
 .main-sections {
     display: flex;
     flex-direction: column;
@@ -73,35 +56,9 @@ a {
     border-radius: 10px;
     background-color: rgb(185, 255, 232);
     padding: 0em 1em;
-    padding-bottom: 1em;
-    margin-bottom: 1.5em;
-}
-
-.work-title {
-    color: rgb(255, 164, 179);
-}
-
-.work-title:hover {
-    color: rgb(223, 146, 159);
+    margin-bottom: 1em;
 }
 
 .special-offer-form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    max-width: 50%;
-}
-
-#form-name {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-#form-cvv {
-    grid-row-start: 3;
-}
-
-#form-submit {
-    margin-top: 1em;
-    grid-row-start: 4;
 }
